@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Multi-page template</title>
+	<link rel="stylesheet" href="css/demos/css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/demos/_assets/css/jqm-demos.css">
+	<link rel="shortcut icon" href="css/demos/favicon.ico">
+	<script src="css/demos/js/jquery.js"></script>
+	<script src="css/demos/_assets/js/index.js"></script>
+	<script src="css/demos/js/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/clareApp.js"></script>
+</head>
+
+<body>
+
+<!-- Start of first page: #one -->
+<div data-role="page" id="one">
+
+	<div data-role="header">
+		<h1>Multi-page</h1>
+	</div><!-- /header -->
+
+
+	<div data-role="main" class="ui-content">
+		<form action="">
+					<fieldset data-role="controlgroup">
+					<legend>Length of Sleep</legend>
+					<input type="radio" name="sleep" id="sleep<=10" value="1" checked="checked">
+					<label for="sleep<=10">10 or More</label>
+					<input type="radio" name="sleep" id="sleep9" value="2">
+					<label for="sleep9">9</label>
+					<input type="radio" name="sleep" id="sleep8" value="3">
+					<label for="sleep8">8</label>
+                                        <input type="radio" name="sleep" id="sleep7" value="4">
+                                        <label for="sleep7">7</label>
+                                        <input type="radio" name="sleep" id="sleep6" value="5">
+                                        <label for="sleep6">6 or Less</label>
+                                        <p><b></b></p>
+                                        <p><b>Quality of Sleep</b><br></p>
+                                        <input type="radio" name="sleep_quality" id="sleep_quality_1" value="1" checked="checked">
+                                        <label for="sleep_quality_1">Very Deep</label>
+                                        <input type="radio" name="sleep_quality" id="sleep_quality_2" value="2">
+                                        <label for="sleep_quality_2">Normal</label>
+                                        <input type="radio" name="sleep_quality" id="sleep_quality_3" value="3">
+                                        <label for="sleep_quality_3">Restless</label>
+                                         <p><b></b></p>
+                                        <p><b>Fatigue</b><br></p>
+                                        <input type="radio" name="fatigue" id="fatigue_1" value="1" checked="checked">
+                                        <label for="fatigue_1">No Fatigue</label>
+                                        <input type="radio" name="fatigue" id="fatigue_2" value="2" >
+                                        <label for="fatigue_2">Minimal fatigue</label>
+                                        <input type="radio" name="fatigue" id="fatigue_3" value="3">
+                                        <label for="fatigue_3">Normal</label>
+                                        <input type="radio" name="fatigue" id="fatigue_4" value="4">
+                                        <label for="fatigue_4">Vert Fatigued</label>
+                                        <input type="radio" name="fatigue" id="fatigue_5" value="5">
+                                        <label for="fatigue_5">Exhausted</label>
+                                         <p><b></b></p>
+                                        <p><b>Readiness To Train</b><br></p>
+                                        <input type="radio" name="RTT" id="RTT_1" value="1" checked="checked">
+                                        <label for="RTT_1">High</label>
+                                        <input type="radio" name="RTT" id="RTT_2" value="2">
+                                        <label for="RTT_2">Above Average</label>
+                                        <input type="radio" name="RTT" id="RTT_3" value="3">
+                                        <label for="RTT_3">Average</label>
+                                        <input type="radio" name="RTT" id="RTT_4" value="4">
+                                        <label for="RTT_4">Low</label>
+                                        <input type="radio" name="RTT" id="RTT_5" value="5">
+                                        <label for="RTT_5">Not At All</label>
+                                        <p><b></b></p>
+                                        <p><b>Mood</b><br></p>
+                                        <input type="radio" name="mood" id="mood_1" value="1" checked="checked">
+                                        <label for="mood_1">Great</label>
+                                        <input type="radio" name="mood" id="mood_2" value="2">
+                                        <label for="mood_2">Very Good</label>
+                                        <input type="radio" name="mood" id="mood_3" value="3">
+                                        <label for="mood_3">Average</label>
+                                        <input type="radio" name="mood" id="mood_4" value="4">
+                                        <label for="mood_4">Not Great</label>
+                                        <input type="radio" name="mood" id="mood_5" value="5">
+                                        <label for="mood_5">Very Poor</label>
+                                        <p><b></b></p>
+                                        <p><b>Muscle Soreness</b><br></p>
+                                        <input type="radio" name="soreness" id="soreness_1" value="1" checked="checked">
+                                        <label for="soreness_1">None</label>
+                                        <input type="radio" name="soreness" id="soreness_2" value="2">
+                                        <label for="soreness_2">Slight</label>
+                                        <input type="radio" name="soreness" id="soreness_3" value="3">
+                                        <label for="soreness_3">Mild(3-4)</label>
+                                        <input type="radio" name="soreness" id="soreness_4" value="4">
+                                        <label for="soreness_4">Moderate(5-7)</label>
+                                        <input type="radio" name="soreness" id="soreness_5" value="5">
+                                        <label for="soreness_5">Extreme(8-10)</label>
+                                        <p><b></b></p>
+                                        <p><b>RPE: After Training</b><br></p>
+                                        <input type="radio" name="RPE" id="RPE_1" value="1" checked="checked">
+                                        <label for="RPE_1">Absolute Minimum Effort</label>
+                                        <input type="radio" name="RPE" id="RPE_2" value="2">
+                                        <label for="RPE_2">Extremely Light</label>
+                                        <input type="radio" name="RPE" id="RPE_3" value="3">
+                                        <label for="RPE_3">Very Light</label>
+                                        <input type="radio" name="RPE" id="RPE_4" value="4">
+                                        <label for="RPE_4">Light</label>
+                                        <input type="radio" name="RPE" id="RPE_5" value="5">
+                                        <label for="RPE_5">Moderate</label>
+                                        <input type="radio" name="RPE" id="RPE_6" value="6">
+                                        <label for="RPE_6">Somewhat Hard</label>
+                                        <input type="radio" name="RPE" id="RPE_7" value="7">
+                                        <label for="RPE_7">Hard</label>
+                                        <input type="radio" name="RPE" id="RPE_8" value="8">
+                                        <label for="RPE_8">Very Hard</label>
+                                        <input type="radio" name="RPE" id="RPE_9" value="9">
+                                        <label for="RPE_9">Extremely Hard</label>
+                                        <input type="radio" name="RPE" id="RPE_10" value="10">
+                                        <label for="RPE_10">Absolute Max Effort</label>
+                                        <p><b></b></p>
+                                        <p><b>Username</b><br></p>
+                                        <input type="text" name="user_name" id="user_name" value="user name">
+                                        <p><b>Password</b><br></p>
+                                        <input type="text" name="password" id="password" value="password">
+                                        <p><b></b></p>
+                                        <input type="button" onClick="sendData(this.form)" value="Submit" id="submitButton"> <!onClick="sendData(this.form)" -->
+				</fieldset>
+			</form>
+                <p><a href="#two" class="ui-btn ui-shadow ui-corner-all">Show page "two"</a></p>
+		<p><a href="#pop" class="ui-btn ui-shadow ui-corner-all" data-rel="dialog" data-transition="pop">Show "page three"</a></p> 
+	</div><!--/demo-html -->
+
+
+	<div data-role="footer" data-theme="a">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page one -->
+
+<!-- Start of second page: #two -->
+<div data-role="page" id="two" data-theme="a">
+
+	<div data-role="header">
+		<h1>Two</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>Two</h2>
+		<p>I have an id of "two" on my page container. I'm the second page container in this multi-page template.</p>
+		<p>Notice that the theme is different for this page because we've added a few <code>data-theme</code> swatch assigments here to show off how flexible it is. You can add any content or widget to these pages, but we're keeping these simple.</p>
+		<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back to page "one"</a></p>
+
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page two -->
+
+<!-- Start of third page: #popup -->
+<div data-role="page" id="popup">
+
+	<div data-role="header" data-theme="b">
+		<h1>Dialog</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>Popup</h2>
+		<p>I have an id of "popup" on my page container and only look like a dialog because the link to me had a <code>data-rel="dialog"</code> attribute which gives me this inset look and a <code>data-transition="pop"</code> attribute to change the transition to pop. Without this, I'd be styled as a normal page.</p>
+		<p><a href="#one" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left">Back to page "one"</a></p>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page popup -->
+
+</body>
+</html>

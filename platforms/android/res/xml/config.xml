@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <name>ClareSF</name>
+    <description>
+        An application to monitor fatigue and mental freshness
+    </description>
+    <author email="grdon.kelly@hotmail.cm" href="http://cordova.io">
+        Gordon Kelly
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

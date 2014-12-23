@@ -57,6 +57,7 @@
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/jquery.mobile.theme-1.4.5.css \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/jquery.mobile.inline-png-1.4.5.min.css \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/jquery.mobile.inline-png-1.4.5.css \
+/home/gordon/PhoneGap/hello/platforms/android/assets/www/css/jqm-demos.css \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/demos/panel-styling \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/demos/panel-responsive \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/demos/listview-collapsible-item-flat \
@@ -463,6 +464,7 @@
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/demos/js/jquery.mobile-1.4.5.js \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/demos/js/jquery.mobile-1.4.5.min.js \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/demos/js/jquery.mobile-1.4.5.min.map \
+/home/gordon/PhoneGap/hello/platforms/android/assets/www/css/demos/js/jquery2.js \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/demos/js/jquery.js \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/demos/popup/index.html \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/demos/collapsibleset/index.html \
@@ -779,8 +781,13 @@
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/images/icons-png/carat-r-white.png \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/css/images/icons-png/check-black.png \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/js/jquery.mobile-1.4.0.js \
+/home/gordon/PhoneGap/hello/platforms/android/assets/www/js/index2.js \
+/home/gordon/PhoneGap/hello/platforms/android/assets/www/js/jquery.mobile-1.4.5.min.css \
+/home/gordon/PhoneGap/hello/platforms/android/assets/www/js/jquery.mobile-1.4.5.min.js \
+/home/gordon/PhoneGap/hello/platforms/android/assets/www/js/jquery2.js \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/js/clareApp.js \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/js/jquery.mobile-1.4.0.min.js \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/js/jquery.js \
 /home/gordon/PhoneGap/hello/platforms/android/assets/www/js/index.js \
+/home/gordon/PhoneGap/hello/platforms/android/assets/www/js/jqm-demos.css \
 /home/gordon/PhoneGap/hello/platforms/android/ant-build/AndroidManifest.xml \

@@ -14,7 +14,7 @@ function sendData(form){
    var xmlhttp;
    var url = "http://93.107.110.41/ClareSFapp/RPE.php?"
   var  url1 = url.concat(string_res);
-   alert(url1);
+
    if (window.XMLHttpRequest)
    {// code for IE7+, Firefox, Chrome, Opera, Safari
   	xmlhttp=new XMLHttpRequest();
@@ -27,7 +27,6 @@ function sendData(form){
   { 
     if (xmlhttp.readyState==4 && xmlhttp.status==200)
     {
-      alert("Updated");
       alert(xmlhttp.responseText);
     }
   }
